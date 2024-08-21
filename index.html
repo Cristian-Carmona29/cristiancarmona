@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- MENU ENCABEZADO -->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">CRISTIAN</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">PORTFOLIO</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!-- SECCION INICIO -->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="img/perfil.jpeg" alt="">
+            </div>
+            <h1>Cristian Carmona</h1>
+            <h2>Tecnólogo - Desarrollo de Software</h2>
+            <div class="redes">
+                <a href="https://www.facebook.com/CristianCarmonaH/" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com/_kpachoe_mope_/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://github.com/Cristian-Carmona29" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/cristian-carmona-b18578210" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION SOBRE MI -->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre Mí</h2>
+            <p><span>Hola, soy Cristian Carmona.</span> He trabajado extensamente con PHP y plataformas en la nube, participando y colaborando en proyectos eficazmente con equipos para lograr resultados significativos. Mis logros incluyen mejoras en la eficiencia del desarrollo y la satisfacción del usuario.</p>
+
+            <div class="fila">
+                <!-- datos personales -->
+                <div class="col">
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Nacimiento</strong>
+                            29-11-2005
+                        </li>
+                        <li>
+                            <strong>Teléfono</strong>
+                            (+57) 3005993821
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            felipe.291105@gmail.com
+                        </li>
+                        <li>
+                            <strong>Dirección</strong>
+                            Kra 34sur #18-06
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- intereses -->
+                <div class="col">
+                    <h3>Intereses</h3>
+                    <div class="contenedor-intereses">
+                        <div class="interes">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>JUEGOS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>MUSICA</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-person-hiking"></i>
+                            <span>DEPORTE</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-motorcycle"></i>
+                            <span>Motos</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a href="files/CV_CristianCarmona.pdf" download>
+                <button>
+                    Descargar CV <i class="fa-solid fa-download"></i>
+                    <span class="overlay"></span>
+                </button>
+            </a>            
+        </div>
+    </section>
+
+    <!-- SECCION SKILLS -->
+    <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2>Skills</h2>
+            <div class="fila">
+                <!-- Technical Skill -->
+                <div class="col">
+                    <h3>Technical Skills</h3>
+                    <div class="skill">
+                        <span>Javascript</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>20%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>HTML & CSS</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>50%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Wordpress</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>50%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>PHP</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>40%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>LARAVEL</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>20%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Professional Skills -->
+                <div class="col">
+                    <h3>Professional Skills</h3>
+                    <div class="skill">
+                        <span>Comunicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Trabajo en Equipo</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Creatividad</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>60%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Dedicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>60%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CURRICULUM -->
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educación</h3>
+                    <div class="item izq">
+                        <h4>Técnico de mantenimiento e instalación de redes de cómputo.</h4>
+                        <span class="casa">Colaegio - Técnico Ciudad de Ibagué</span>
+                        <span class="fecha">2020 - 2022</span>
+                        <p>Durante mi formación en el Colegio Técnico Ciudad de Ibagué, adquirí habilidades avanzadas en el mantenimiento e instalación de redes de cómputo. Aprendí a configurar y solucionar problemas en redes LAN y WAN, implementar medidas de seguridad y optimizar el rendimiento de los sistemas. Mi experiencia práctica incluyó la realización de proyectos en equipo y la gestión de redes en entornos educativos.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                        <a href="files/Certificado - Título Técnico.pdf" download>
+                            <button>
+                                Descargar Título Técnico <i class="fa-solid fa-download"></i>
+                                <span class="overlay"></span>
+                            </button>
+                        </a>
+                    </div>
+                    <div class="item izq">
+                        <h4>Análisis y Desarrollo de Software</h4>
+                        <span class="casa">SENA - Centro Industria y Construcción</span>
+                        <span class="fecha">2023 - 2024</span>
+                        <p>En el SENA - Centro Industria y Construcción, he aprendido lo básico en el análisis y desarrollo de software, adquiriendo buenos conocimientos en diseño de sistemas, programación en diversos lenguajes, y metodologías ágiles. Mi formación incluyó el desarrollo de aplicaciones web, el uso de herramientas de gestión de proyectos, y la implementación de soluciones eficientes y escalables. Participé en proyectos prácticos que me permitieron aplicar teorías y técnicas en escenarios reales, preparándome para enfrentar desafíos en el campo del desarrollo de software.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col derecha">
+                    <h3>Experiencia de trabajo</h3>
+                    <div class="item der">
+                        <h4>Customer Project</h4>
+                        <span class="casa">TechTrove</span>
+                        <span class="fecha">2023 - 2024</span>
+                        <p>Este proyecto, desarrollado en colaboración con mi equipo, se centra en la creación de una tienda virtual completa. Permite a los usuarios agendar citas para servicios y adquirir equipos de computo. La plataforma está diseñada para facilitar la compra y la gestión de citas, proporcionando una experiencia de usuario intuitiva y eficiente.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                        <a href="#" download>
+                            <button>
+                                Descargar PDF <i class="fa-solid fa-download"></i>
+                                <span class="overlay"></span>
+                            </button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION PORTFOLIO -->
+    <section id="portfolio" class="portfolio">
+        <div class="contenido-seccion">
+            <h2>PORTFOLIO</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <a href="#">
+                        <img src="img/p1.jpg" alt="">
+                        <div class="overlay">
+                            <h3>TechTrove</h3>
+                            <p>Plataforma Web de Venta y Mantenimiento de Ordenadores</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="proyecto">
+                    <a href="https://cristian-carmona29.github.io/puzzle.github.io/">
+                        <img src="img/p2.jpg" alt="">
+                        <div class="overlay">
+                            <h3>Puzzle</h3>
+                            <p>Un Divertivo Rompecabezas Hecho en JS</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CONTACTO -->
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>CONTACTO</h2>
+            <div class="fila">
+                <!-- Formulario -->
+                <div class="col">
+                    <form id="contactForm">
+                        <input type="text" name="nombre" placeholder="Tú Nombre" required>
+                        <input type="text" name="telefono" placeholder="Número telefónico" required>
+                        <input type="email" name="correo" placeholder="Dirección de correo" required>
+                        <input type="text" name="tema" placeholder="Tema" required>
+                        <textarea name="mensaje" cols="30" rows="10" placeholder="Mensaje" required></textarea>
+                        <button type="submit">
+                            Enviar Mensaje <i class="fa-solid fa-paper-plane"></i>
+                            <span class="overlay"></span>
+                        </button>
+                    </form>
+                    <div id="responseMessage"></div>
+                </div>
+                <!-- Mapa -->
+                <div class="col">
+                    <img src="img/ubicacion.png" alt="">
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i>
+                                Kra 34sur #18-06 - La Isla
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-mobile-screen"></i>
+                                Llamame: 3005993821
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelope"></i>
+                                Email: felipe.291105@gmail.com
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="https://www.facebook.com/CristianCarmonaH/" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="https://www.instagram.com/_kpachoe_mope_/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://github.com/Cristian-Carmona29" target="_blank"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/cristian-carmona-b18578210" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+
+    <div id="customModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <p id="modalMessage"></p>
+        </div>
+    </div>
+</body>
+</html>
