@@ -121,12 +121,12 @@ html{
     font-family: 'Righteous';
     text-align: center;
     padding: 20px 0;
-
 }
 .sobremi .contenido-seccion p{
     font: 18px;
     line-height: 22px;
     margin-bottom: 20px;
+    text-align: justify;
 }
 .sobremi .contenido-seccion a{
     text-decoration: none;
@@ -279,7 +279,7 @@ html{
 }
 @keyframes javascript {
     0%{width: 0%;}
-    100%{width: 20%;}
+    100%{width: 70%;}
 }
 
 .skills .skill .htmlcss{
@@ -297,8 +297,9 @@ html{
 }
 @keyframes wordpress {
     0%{width: 0%;}
-    100%{width: 40%;}
+    100%{width: 60%;}
 }
+
 
 .skills .skill .php{
     width: 0%;
@@ -306,7 +307,7 @@ html{
 }
 @keyframes php {
     0%{width: 0%;}
-    100%{width: 50%;}
+    100%{width: 40%;}
 }
 
 .skills .skill .laravel{
@@ -315,7 +316,7 @@ html{
 }
 @keyframes laravel {
     0%{width: 0%;}
-    100%{width: 20%;}
+    100%{width: 60%;}
 }
 
 .skills .skill .comunicacion{
@@ -342,7 +343,7 @@ html{
 }
 @keyframes creatividad {
     0%{width: 0%;}
-    100%{width: 60%;}
+    100%{width: 50%;}
 }
 
 .skills .skill .dedicacion{
@@ -363,6 +364,7 @@ html{
 .curriculum .contenido-seccion{
     max-width: 1100px;
     margin: auto;
+    text-align: justify;
 }
 .curriculum h2{
     font-size: 48px;
